@@ -21,9 +21,9 @@ Technologies used
 
 • Styling: Tailwind CSS
 
-• Routing: React Router v6
+• Routing: React Router 
 
-• Backend: JSON Server (REST API Simulation)
+• Backend: JSON Server 
 
 ---
 
@@ -48,15 +48,8 @@ npm install
 
 ```
 
-3. Start the Backend Server (API)
 
-```
-
-json-server --watch db.json --port 3001
-
-```
-
-4. Start the Frontend Application
+3.. start the app
 
 Open a new terminal tab and run:
 
