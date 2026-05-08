@@ -1,0 +1,40 @@
+{
+  "projects": [
+    { "id": 1, "name": "Luxury Brand Redesign",
+     "tech": "React", 
+     "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800", 
+     "desc": "A complete overhaul of a high-end fashion retailer's digital presence, focusing on high-performance animations." },
+
+
+    { "id": 2, "name": "Fitness Tracker App", 
+    "tech": "JavaScript", 
+    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800", 
+    "desc": "A real-time health dashboard that tracks calories, steps, and heart rate using modern browser APIs." },
+
+
+    { "id": 3,
+     "name": "Crypto Wallet UI", 
+     "tech": "Tailwind", 
+     "image": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=800",
+      "desc": "A sleek, dark-mode focused financial interface with glassmorphism effects and interactive charts." },
+
+
+    { "id": 4, 
+    "name": "Smart Home Hub",
+     "tech": "Vite", 
+     "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=800",
+     "desc": "An IoT control center that allows users to manage lighting, security, and temperature from a single SPA." },
+
+    { "id": 5,
+     "name": "AI Content Engine", 
+     "tech": "React Router", 
+     "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800", 
+     "desc": "Using AI integration to generate creative copy and social media assets dynamically for users." },
+
+    { "id": 6, 
+    "name": "Coffee Roastery Site",
+     "tech": "CSS Modules", 
+     "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800", 
+     "desc": "An e-commerce landing page with a focus on organic typography and high-quality photography." }
+  ]
+}

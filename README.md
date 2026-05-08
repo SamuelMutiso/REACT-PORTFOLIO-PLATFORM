@@ -1,16 +1,88 @@
-# React + Vite
+Agency.UX | Creative Portfolio Platform
+Agency.UX is a modern, high-performance Single Page Application (SPA) designed for creative agencies to showcase their digital work. This platform allows for real-time project management, dynamic filtering, and a seamless user experience across all devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+ Features
+• Dynamic Project Showcase: Automatically fetches and displays a curated list of projects from a RESTful API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+• Client-Side Routing: Implements `react-router-dom` for instantaneous navigation between the landing page and detailed project views.
 
-## React Compiler
+• Real-Time Search: A dynamic filtering system that allows users to find specific projects by title instantly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+• Project Management: A dedicated form to add new projects dynamically using `POST` requests.
 
-## Expanding the ESLint configuration
+• Premium UI/UX: Built with Tailwind CSS, featuring glassmorphism, custom gradients, and smooth interactions.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Technologies used
+• Frontend: React.js (Vite)
+
+• Styling: Tailwind CSS
+
+• Routing: React Router v6
+
+• Backend: JSON Server (REST API Simulation)
+
+---
+
+How to install and run the program
+Follow these steps to run the project locally:
+
+1. Clone the Repository
+
+```
+
+git clone 
+
+cd spa-react-portfolio
+
+```
+
+2. Install Dependencies
+
+```
+
+npm install
+
+```
+
+3. Start the Backend Server (API)
+
+```
+
+json-server --watch db.json --port 3001
+
+```
+
+4. Start the Frontend Application
+
+Open a new terminal tab and run:
+
+```
+
+npm run dev
+
+```
+
+The application will be available at `http://localhost:5173`.
+
+---
+
+📂 Component Hierarchy
+• `App`: Manages global state and routing.
+
+  • `Navbar`: Global navigation.
+
+  • `Hero`: High-impact landing section.
+
+  • `ProjectForm`: Sidebar for adding new projects.
+
+  • `SearchBar`: Controlled component for filtering.
+
+  • `ProjectList`: Container that maps data into cards.
+
+    • `ProjectCard`: Individual project displays with routing links.
+
+  • `ProjectDetail`: Full-page view for individual project specifics.
