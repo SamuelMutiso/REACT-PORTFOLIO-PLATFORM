@@ -63,7 +63,7 @@ The application will be available at `http://localhost:5173`.
 
 ---
 
-📂 Component Hierarchy
+ Component Hierarchy
 • `App`: Manages global state and routing.
 
   • `Navbar`: Global navigation.
